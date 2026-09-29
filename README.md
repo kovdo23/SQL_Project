@@ -35,6 +35,10 @@ A nyers adatokat sosem közvetlenül módosítottam; létrehoztam egy köztes mu
   WHERE country LIKE 'United States%';
   ```
 * **Dátumkonverzió:** A szöveges (`text`) típusú dátummezőt a `STR_TO_DATE()` függvénnyel dátummá alakítottam át (`%m/%d/%Y`), majd az oszlop típusát módosítottam `DATE`-re (`ALTER TABLE ... MODIFY COLUMN`).
+  ```sql
+  update layoffs_staging2
+  set date = str_to_date(`date`, '%m/%d/%Y');
+  ```
 
 ### 3. Hiányzó és üres értékek kezelése (Handling Nulls & Blanks)
 * Az üres szöveges értékeket (`''`) formálisan átkonvertáltam standard `NULL` értékekre az `industry` mezőben.
