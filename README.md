@@ -1,4 +1,4 @@
-# World Layoffs – Adattisztítás és Feltáró Adatelemzés (EDA) MySQL Segítségével
+# World Layoffs – Adattisztítás és Adatelemzés MySQL Segítségével
 
 Ebben a projektben egy globális, tech szektorbeli leépítéseket tartalmazó adathalmazon (`layoffs`) végeztem el teljes körű **adattisztítást (Data Cleaning)** és **feltáró adatelemzést (Exploratory Data Analysis - EDA)** **MySQL** segítségével. 
 
