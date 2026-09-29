@@ -1,2 +1,2 @@
 # SQL_Project
-Data Cleaning Project in SQL
+Cleaning and exploring data in SQL!
